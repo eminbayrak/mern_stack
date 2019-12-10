@@ -48,7 +48,7 @@ class Login extends Component {
             </div>
           </div>
         </div> */}
-        <h1>EIL Logistics</h1>
+        <h1>IEL</h1>
       </div>
     );
   }
