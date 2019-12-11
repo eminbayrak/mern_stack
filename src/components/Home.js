@@ -10,7 +10,7 @@ class Home extends Component {
     return (
       <div className="jumbotron bg-transparent mb-0 radius-0">
 
-        <h1>IEL Logistics is awesome place to work</h1>
+        <h1 className="text-center">IEL</h1>
       </div>
     );
   }
