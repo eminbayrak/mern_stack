@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Contacts from "./components/contacts";
 // import Users from "./components/users";
 import Login from "./components/Login";
+import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import "./assests/css/materia/bs-neon.min.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -13,7 +14,7 @@ class App extends Component {
       <Router>
         <div className="container">
           <Navbar />
-          <Route path="/" exact component={Login}/> 
+          <Route path="/" exact component={Home}/> 
           <Route path="/createuser" exact component={CreateUser}/> 
         </div>
       </Router>
