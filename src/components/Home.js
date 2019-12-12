@@ -9,8 +9,9 @@ class Home extends Component {
   render() {
     return (
       <div className="jumbotron bg-transparent mb-0 radius-0">
-
-        <h1 className="text-center">IEL</h1>
+        <div card border-primary mb-3>
+          <h1 className="text-center">IEL is a n awesome place to work</h1>
+        </div>
       </div>
     );
   }
